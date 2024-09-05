@@ -1,0 +1,145 @@
+{% load static %}
+
+<!Doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mohammed Karmoud</title>
+        <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <header class="text-center my-4">
+            <h1>Mohammed Karmoud</h1>
+            <p class="lead">Ingénieur en Data Science et Maintenance Prédictive</p>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card card-body" id="profile-wrapper"> 
+                        <img id="profile-pic" src="{% static 'images/Mohammed Karmoud.jpg' %}" alt="Photo de profil">
+                        <hr>
+                        <p>Ingénieur spécialisé en data science et maintenance vibratoire, j'optimise les usines connectées avec l'IA pour améliorer fiabilité, sécurité et efficacité, en innovant pour l'industrie 4.0 à travers des solutions intelligentes.</p>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="card mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h5>Expérience</h5>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>OCP Maintenance Solution, Safi</strong></p>
+                            <p><em>Ingénieur en Data Science et Maintenance Prédictive</em></p>
+                            <p>11/2023 – à présent</p>
+                            <ul>
+                                <li>Développement d’un système de maintenance prédictive (I-predict)</li>
+                                <li>Élaboration d’un système de maintenance prédictive :</li>
+                                <ul>
+                                    <li>Choix des indicateurs pertinents de vibration.</li>
+                                    <li>Création d’un modèle de détection d’anomalies à l’aide de l’apprentissage profond (Deep Learning).</li>
+                                    <li>Création d’un modèle de diagnostic automatique à l’aide de l’apprentissage profond (Deep Learning).</li>
+                                    <li>Création d’un modèle de pronostic à l’aide de l’apprentissage profond (Deep Learning).</li>
+                                    <li>Conception et création d’une interface client sur I-sense.</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h5>Projets</h5>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Ingénierie Système Pilotage industrielle (MES) et Supervision Scada – UM6P Ben Guerir</strong></p>
+                            <p>2021 – 2023</p>
+                            <ul>
+                                <li>Conception d’une application desktop de gestion des ordres de fabrication pour l’intégration et le pilotage industriels (MES).</li>
+                                <li>Conception d’une interface Web pour la gestion des ordres de Maintenance pour l’intégration et le pilotage industriels (MES).</li>
+                                <li>Programmation et liaison entre une automate programmable et des logiciels SCADA avec le serveur OPC.</li>
+                                <li>Ingénierie d’un système de prêt et de réservation d’outillages industriels.</li>
+                            </ul>
+                            <p><strong>Conception et Réalisation d’une Carte Électronique ECG – EST Safi</strong></p>
+                            <p>2020 – 2021</p>
+                            <ul>
+                                <li>Étude et Analyse Fonctionnelle du Projet.</li>
+                                <li>Conception de la Carte Électronique avec Proteus Isis.</li>
+                                <li>Simulation de la Carte Électronique.</li>
+                                <li>Routage et Soudage des Composants Électroniques.</li>
+                                <li>Simulation et Vérification Finale.</li>
+                            </ul>
+                            <p><strong>Modélisation du circuit ACIA avec le langage VHDL – EST Safi</strong></p>
+                            <p>2019 – 2020</p>
+                            <ul>
+                                <li>Conduite de l’étude et de l’analyse fonctionnelle du circuit ACIA pour comprendre les besoins et les spécifications.</li>
+                                <li>Découpage du circuit en composants individuels pour une modélisation plus détaillée.</li>
+                                <li>Modélisation de chaque partie du circuit en utilisant le langage de modélisation pour refléter les caractéristiques et les fonctionnalités spécifiques.</li>
+                                <li>Regroupement des composants modélisés pour obtenir une représentation complète du circuit ACIA.</li>
+                                <li>Conception, simulation et vérification du modèle global pour garantir un fonctionnement précis.</li>
+                            </ul>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h5>Formation</h5>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Université Polytechnique Mohammed VI, Ben Guerir</strong></p>
+                            <p>Master en Technologie industrielle pour usine du futur</p>
+                            <p>Sep. 2021 – Mai 2023</p>
+                            <p><strong>École Supérieure de Technologies, Safi</strong></p>
+                            <p>Licence Professionnelle en Mécatronique</p>
+                            <p>Sep. 2020 – Mai 2021</p>
+                            <p><strong>École Supérieure de Technologies, Safi</strong></p>
+                            <p>Diplôme Universitaire de Technologie en Génie Industriel et Maintenance</p>
+                            <p>Sep. 2018 – Mai 2020</p>
+                            <p><strong>Lycée EL Khawarizmi, Safi</strong></p>
+                            <p>Baccalauréat professionnel en maintenance industrielle</p>
+                            <p>Sep. 2016 – Mai 2018</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h5>Compétences</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li><strong>Langages :</strong> Python, Java, C, C++, HTML/CSS, VHDL, SQL</li>
+                                <li><strong>Logiciels :</strong> Step7, RSlogix, RSview, Proteus Professional, MAX+ PLUS II, Microsoft Office, Unity Pro, Came</li>
+                                <li><strong>Automatisme Industriel :</strong> TiaPortal, RSlogix, Unity Pro, SIMATIC WinCC, Vijeo Designer, KEPServerEX</li>
+                                <li><strong>Maintenance :</strong> GMAO, AMDEC, ABC</li>
+                                <li><strong>Conception Assistée par Ordinateur :</strong> Catia, SolidWorks</li>
+                                <li><strong>Développement des Cartes Électroniques :</strong> Proteus Isis, ARES</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <footer class="footer">
+                <p>© 2024 Mohammed Karmoud</p>
+                <p>
+                    <a href="https://linkedin.com/in/mohammedkarmoud" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> | 
+                    <a href="mailto:Mohamed.KARMOUD@um6p.ma"><i class="fas fa-envelope"></i> Email</a>
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
